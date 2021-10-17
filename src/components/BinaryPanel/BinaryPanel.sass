@@ -1,0 +1,44 @@
+.container-fluid
+    box-shadow: none !important
+    .seperated
+        margin-right: 10px
+    .margin
+        margin-right: 25px
+    .part
+        user-select: none
+        font-size: 26px
+        cursor: default
+        transition: transform 0.2s ease
+        width: 20px
+        height: 26px
+        position: relative
+        display: inline-flex
+        justify-content: center
+        align-items: center
+        overflow: hidden
+        position: relative
+        &:hover
+            color: #0068F7
+        span
+            position: absolute
+            display: inline-block
+            transition: transform 0.2s ease
+            width: 32px
+        .first
+            transform: translateY(26px)
+        .zero
+            transform: translateY(-26px)
+        .one
+            transform: translateY(0px)
+    .highlightBit
+        color: red
+
+@media screen and (max-width:996px)
+    .container
+        span
+            font-size: 16px !important
+            width: 18px
+        .seperated
+            margin-right: 8px
+        .margin
+            margin-right: 15px

@@ -3,5 +3,7 @@
     "tabWidth": 4,
     "semi": false,
     "singleQuote": true,
-    "printWidth": 79
+    "printWidth": 79,
+    "bracketLine": true,
+    "arrowParens": "avoid"
 }
